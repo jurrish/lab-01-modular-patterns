@@ -34,3 +34,5 @@ For a second bonus point, write a test that makes sure that the arguments are be
   * Proper Submission: 2pts
   * mocha/assert Test: 3pts
   * Use of Modular Pattern/design of greet object/function: 3pts
+ 
+# check this out
