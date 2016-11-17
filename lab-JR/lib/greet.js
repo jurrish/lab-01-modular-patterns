@@ -1,3 +1,3 @@
-module.exports = function() {
-  //some shit that's being tested
+module.exports = function(name) {
+  return 'Hello ' + name;
 };
