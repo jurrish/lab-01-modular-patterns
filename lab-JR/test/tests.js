@@ -7,7 +7,7 @@ describe('function', function() {
   describe('greet()', function() {
     it('should return a string Hello + param', function(){
       //assert.equal(actual, expected, [message]);
-      assert.equal(testGreet('JR'), 'Hello' + 'JR');
+      assert.equal(testGreet('JR'), 'Hello ' + 'JR');
     });
   });
 });
