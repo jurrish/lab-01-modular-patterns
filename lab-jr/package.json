@@ -1,7 +1,7 @@
 {
   "name": "lab-jr",
   "version": "1.0.0",
-  "description": "",
+  "description": "testing greet function",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -9,6 +9,17 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "jr",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefellows-seattle-javascript-401n3/lab-01-modular-patterns.git"
+  },
+  "keywords": [
+    "lab-1"
+  ],
+  "author": "JR Iriarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codefellows-seattle-javascript-401n3/lab-01-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/codefellows-seattle-javascript-401n3/lab-01-modular-patterns#readme"
 }
