@@ -9,5 +9,3 @@ describe('function', function(){
     });
   });
 });
-
-// console.log(greetTest);
