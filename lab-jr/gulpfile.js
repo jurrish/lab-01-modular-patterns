@@ -6,6 +6,7 @@ const mocha = require('mocha');
 
 //use gulp to lint all the shits
 gulp.task('lint all the things', function(){
+  process.stdout.write('boops');//checking to see innards of function is printing to terminal
   return gulp.src(['**/*.js', '!node_modules/**'])
   .pipe(eslint());
 });
