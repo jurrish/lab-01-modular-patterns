@@ -22,4 +22,4 @@ gulp.task('watch files, lint, run things', function() {
   gulp.watch(['**/*.js', '!node_modules/**'], ['lint all the things', 'run all the mochas']);
 });
 //use gulp to default in whatever my favorite task is (maybe test?)
-gulp.task('default', ['lint al the things']);
+gulp.task('default', ['lint all the things']);
