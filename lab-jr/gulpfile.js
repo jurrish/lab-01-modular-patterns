@@ -18,6 +18,7 @@ gulp.task('run all the mochas', function(){
 });
 
 //use gulp to watch files, lint urrthang, and run tests
+//watch watches for changes in these files!
 gulp.task('watch files, lint, run things', function() {
   gulp.watch(['**/*.js', '!node_modules/**'], ['lint all the things', 'run all the mochas']);
 });
